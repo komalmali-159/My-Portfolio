@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Komal Mali | Portfolio</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00adb5;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      background: #007e86;
+    }
+
+    /* Navbar */
+    nav {
+      background: #16213e;
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    /* Sections */
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #1a1a2e;
+      font-size: 1.8rem;
+      border-left: 5px solid #00adb5;
+      padding-left: 15px;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 40px;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-left: 4px solid #00adb5;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      background: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    a {
+      color: #00adb5;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 14px;
+      }
+
+      .btn {
+        padding: 10px 18px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Komal Subhash Mali</h1>
+    <p>BCA 1st Year Student | Aspiring Full Stack Developer</p>
+   <a href="https://drive.google.com/uc?export=download&id=1aYKFiQu5DZQncJB2IF5mgptzoICVlvKY" class="btn" download>📄 Download CV</a>
+
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Komal Mali</strong>, currently pursuing a <strong>Bachelor of Computer Applications (BCA)</strong>. I specialize in full stack development using technologies like HTML, CSS, Bootstrap, JavaScript, C#, ASP.NET, Web API, Blazor, SQL, Git, and Azure. I'm looking for internship opportunities to grow my practical skills and contribute to meaningful projects.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, Bootstrap, JavaScript, Blazor</li>
+      <li><strong>Backend:</strong> C#, ASP.NET MVC, ASP.NET Core Web API</li>
+      <li><strong>Database:</strong> SQL, ADO.NET, Entity Framework, EF Core, LINQ</li>
+      <li><strong>DevOps/Tools:</strong> Git, GitHub, Azure Deployment</li>
+      <li><strong>Other:</strong> MS Excel, Classroom Management & Admin</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Student Registration System</h3>
+      <p>Developed using C# and ADO.NET connected to SQL Server. Allows adding, viewing, and updating student records.</p>
+    </div>
+
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Responsive website built using HTML, CSS, and Bootstrap to showcase my resume, skills, and contact information.</p>
+    </div>
+
+    <div class="project">
+      <h3>Task Manager API</h3>
+      <p>RESTful API built with ASP.NET Core Web API using EF Core and SQL. Includes task CRUD operations with Postman testing.</p>
+    </div>
+
+    <div class="project">
+      <h3>Blazor Dashboard</h3>
+      <p>In-progress project using Blazor WebAssembly and ASP.NET Core for a dynamic admin dashboard, deployed on Azure.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:komalmali159@gmail.com">komalmali159@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91-8668521254</p>
+    <p><strong>Location:</strong> Warwade, Shirpur, Maharashtra</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Komal Mali | Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
